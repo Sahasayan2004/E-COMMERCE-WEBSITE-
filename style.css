@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Lobster', cursive;
+    margin-left: 0;
+}
+
+.Organic {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+}
+
+.organic:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.search {
+    height: 45px;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-right: none;
+}
+
+.btn0 {
+    height: 45px;
+    border-radius: 0px 20px 20px 0px;
+    outline: none;
+    background-color: rgb(56, 242, 56);
+    border: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+.main {
+    background: url(./imgs/m1.jpg)no-repeat;
+    background-size: cover;
+    height:;
+    width: 100%;
+
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+    margin-left: 0;
+}
+
+.main p:nth-child(1) {
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 100px;
+
+}
+
+.main p:nth-child(2) {
+    font-size: 19px;
+    color: green;
+}
+
+.mbtn1 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: azure;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover {
+    background-color: rgb(113, 113, 191);
+}
+
+.mbtn2 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn2:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+
+.line {
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+
+.about {
+    background: url(./imgs/abut.jpg)no-repeat;
+    background-size: cover;
+
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+
+}
+
+.about p:nth-child(1) {
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 100px;
+
+}
+
+.about p:nth-child(2) {
+    font-size: 19px;
+    color: green;
+}
+
+.welcome {
+    background: rgb(20, 219, 20);
+}
+
+.line2 {
+    height: 6px;
+    width: 30%;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    box-shadow: 150px;
+}
+
+.welcome i {
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+
+.welcome h2 {
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+.card p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agri {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.product h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.product p:nth-child(1) {
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 100px;
+
+}
+
+.product p:nth-child(2) {
+    font-size: 19px;
+    color: green;
+}
+
+.star {
+    text-align: end;
+    color: orange;
+}
+
+.product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.product .card-body {
+    border: 1px solid rgb(190, 185, 185);
+}
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+.per1{
+    color: gray;
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+.discount{
+    background-color: rgb(20, 219, 20);
+    color: aquamarine;
+}
+.dbtn{
+    height: 50px;
+    width: 75%;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+}
+.dbtn:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+.store h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+
+}
+
+.store p:nth-child(1) {
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.store p:nth-child(2) {
+    font-size: 19px;
+    color: green;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 10px;
+    box-shadow: inset;
+    
+    cursor: pointer;
+    border: ;
+}
+.store .card:hover{
+    
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 3px 16px 4px rgba(218,205,226,0.85);
+-webkit-box-shadow: 5px 3px 16px 4px rgba(218,205,226,0.85);
+-moz-box-shadow: 5px 3px 16px 4px rgba(218,205,226,0.85);
+}
+.store .card:hover .per1{
+    color: rgb(0, 7, 13);
+}
+.store .card{
+    height: 300px;
+}
+
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.seller i{
+    font-size: 25px;
+    color: rgb(20, 219, 20);
+}
+.seller .card{
+    border: 1px solid rgb(190, 185, 185);
+}
+.seller button{
+    margin-left: 0;
+}
+.btnd{
+    height: 50px;
+   
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4;
+
+}
+.btnd:hover{
+    background-color: blueviolet;
+}
+
+.contact{
+    background:url(./imgs/cont.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height: 60px;
+    width: 150%;
+    border-radius: 50%;
+    background-color: white;
+    color:black ;
+    text-align: center;
+    padding-top: 15px;
+    font-size:20px ;
+}
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+.cbtn{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: black;
+
+    background: white;
+    border-radius: 50px;
+    font-weight:lighter ;
+}
+.cbtn:hover{
+    background: rgb(243, 216, 166);
+}
+.footer{
+    background-color: rgb(20, 0, 0);
+    color: white;
+}
+.btn2{
+    height:45px;
+    width: 100px;
+    background: rgb(208, 187, 187);
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.footer input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white ;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.footer::placeholder{
+    color: azure;
+}
+.footer p{
+    margin: 0;
+}
+.footer i{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 5px;
+    color: blue;
+}
+hr{
+    background: white;
+}
+.footer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
